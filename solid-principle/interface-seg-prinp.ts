@@ -1,3 +1,6 @@
+// basically dont make other classes implement methods which is not really needed
+// for example robot does not need eating method or functionality so no need to have 
+// eating and it saying i dont eat. Just dont have that method itself only
 interface Iworkable {
     work():void;
 }
